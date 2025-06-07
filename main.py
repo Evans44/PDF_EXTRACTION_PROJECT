@@ -8,6 +8,6 @@ def extract_text_from_pdf(file_path):
             all_text += text if text else ''
     return all_text
 
-if _name_ == "_main_":
+if __name__ == "__main__" :
     pdf_text = extract_text_from_pdf("sample.pdf")
     print(pdf_text)
